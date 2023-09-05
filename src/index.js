@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import styled from "styled-components";
 
 const PizzaFrame = styled.div`
@@ -54,7 +55,6 @@ const Pizza = ({ pizza }) => {
 
   function onSave() {
     setDirty(false);
-    // make REST call
   }
 
   return (
